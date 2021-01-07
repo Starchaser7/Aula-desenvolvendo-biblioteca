@@ -1,0 +1,31 @@
+{
+  "name": "aula-desenvolvendo-biblioteca",
+  "version": "0.1.0",
+  "description": "Aprendendo a desenvolver biblioteca React",
+  "main": "index.js",
+  "repository": "https://github.com/Starchaser7/Aula-desenvolvendo-biblioteca",
+  "author": "Starchaser7",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack serve --hot --port=8080",
+    "build": "cross-env NODE_ENV=production babel src/lib --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "numero-por-extenso": "^1.0.8"
+  }
+}
