@@ -1,8 +1,8 @@
-Estou praticando criação de biblioteca react adicionando apenas as coisas mais basicas
+# Estou praticando criação de biblioteca react adicionando apenas as coisas mais basicas
 
 Webpack: tive um problema ao tentar rodar o webpack script {"start": "webpack-deve-server"}, fiz uma pesquisa e ai encontrei o problema
 
-##NPM package.json scripts are a convenient and useful means to run locally installed binaries without having to be concerned about their full paths. Simply define a script as such:
+NPM package.json scripts are a convenient and useful means to run locally installed binaries without having to be concerned about their full paths. Simply define a script as such:
 
 For webpack-cli 3.x:
 

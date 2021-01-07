@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import ReactInputPorExtenso from "../lib";
-import style from './styles'
 
 
 const App = () => {
