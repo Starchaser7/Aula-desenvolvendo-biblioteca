@@ -2,11 +2,16 @@
   "name": "aula-desenvolvendo-biblioteca",
   "version": "0.1.0",
   "description": "Aprendendo a desenvolver biblioteca React",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "repository": "https://github.com/Starchaser7/Aula-desenvolvendo-biblioteca",
   "author": "Starchaser7",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "start": "webpack serve --hot --port=8080",
     "build": "cross-env NODE_ENV=production babel src/lib --out-dir dist"
@@ -21,6 +26,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
